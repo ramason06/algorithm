@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/son-ahram/Study/Algorithm/algorithm/main.cpp
+iostream
+-
+cstdio
+-
+stdlib.h
+-
+vector
+-
+algorithm
+-
+cstring
+-
+set
+-
+cmath
+-
+
