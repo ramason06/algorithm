@@ -21,15 +21,15 @@ public class MeetingRooms2 {
         }
     }
 
-    public Solution.Interval[] convert(int[][] arr) {
+    public Interval[] convert(int[][] arr) {
         return Arrays.stream(arr)
                 .map(it -> new Interval(it[0], it[1]))
-                .toArray(Solution.Interval[]::new);
+                .toArray(Interval[]::new);
     }
 
 
     public int minMeetingRooms(int[][] intervals) {
-        Solution.Interval[] arr = convert(intervals);
+        Interval[] arr = convert(intervals);
         if (arr.length == 0) {
             return 0;
         }
@@ -40,7 +40,7 @@ public class MeetingRooms2 {
                         Comparator.comparingInt(a -> a));
         Arrays.sort(
                 arr,
-                Comparator.comparingInt(Solution.Interval::getS));
+                Comparator.comparingInt(Interval::getS));
 
         pq.add(arr[0].getE());
 
