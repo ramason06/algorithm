@@ -1,4 +1,4 @@
-package java;
+package src.alo;
 
 //https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/submissions/
 public class searchRange {

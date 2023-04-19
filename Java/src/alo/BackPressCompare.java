@@ -1,4 +1,4 @@
-package src;
+package src.alo;
 
 public class BackPressCompare {
     public boolean backspaceCompare(String S, String T) {

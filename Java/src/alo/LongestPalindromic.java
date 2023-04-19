@@ -1,4 +1,4 @@
-package src;
+package src.alo;
 
 public class LongestPalindromic {
     public String longestPalindrome(String s) {

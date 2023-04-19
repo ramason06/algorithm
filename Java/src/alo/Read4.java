@@ -1,4 +1,4 @@
-package src;
+package src.alo;
 
 public class Read4 {
     private int read4(char[] buf) {
